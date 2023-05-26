@@ -1,0 +1,700 @@
+body{
+  overflow-x:hidden;
+  font-family:'Merriweather', serif;
+}
+
+p{
+ line-height:1.75;
+ font-family:'Merriweather', serif;
+}
+
+a{
+     color:#fed136
+}
+
+a:hover{
+ color:#fec503
+}
+
+.text-primary{
+ color:#fed136!important
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-top: 100px;
+  font-weight: 500;
+  font-family:'Merriweather', serif;
+}
+/**NAVBAR**/
+
+#mainNav{
+  background-color:transparent;
+}
+
+#mainNav .navbar-toggler{
+  font-size:12px;
+  right:0;
+  padding:13px;
+  text-transform:uppercase;
+  border:0;
+  font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+}
+
+#mainNav .navbar-brand{
+  font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+}
+
+#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+  font-size:90%;
+  font-weight:400;
+  padding:.75em 0;
+  letter-spacing:1px;
+  color:rgb(202, 177, 32);
+  font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover{
+  color:rgb(202, 177, 32);
+}
+
+@media (min-width:992px){
+      #mainNav{
+  padding-top:10px;
+  padding-bottom:10px;
+  -webkit-transition:padding-top .3s,padding-bottom .3s;transition:padding-top .3s,padding-bottom .3s;
+  border:none;
+  background-color:white ;
+  }
+
+      #mainNav .navbar-brand{
+  font-size:1.75em;
+  -webkit-transition:all .3s;transition:all .3s
+  }
+
+      #mainNav .navbar-nav .nav-item .nav-link{
+  padding:1.1em 1em!important
+  }
+
+      #mainNav.navbar-shrink{
+  padding-top:0;
+  padding-bottom:0;
+  background-color:#212529
+  }
+
+      #mainNav.navbar-shrink .navbar-brand{
+  font-size:1.25em;
+  padding:12px 0
+  }
+}
+
+/**HOME**/
+
+header.masthead{
+  background-size: cover;
+  background-image:url(images/pg1.png);
+  height: 700px; 
+}
+
+header.masthead .intro-text{
+  padding-top:150px;
+  padding-bottom:100px;
+  text-align: center;
+  font-family:'ZCOOL XiaoWei', serif;
+}
+
+header.masthead .intro-text .intro-lead-in{
+  font-size: 50px;
+  font-weight: bold;
+  font-style:italic;
+  line-height:22px;
+  margin-bottom:20px;
+  margin-top: 125px;
+  font-family:'ZCOOL XiaoWei', serif;
+  color: white;
+}
+header.masthead .intro-text .intro-heading{
+  font-size:30px;
+  font-style:italic;
+  line-height:32px;
+  margin-bottom:10px;
+  margin-top: 20px;
+  color: white;
+  font-family:'Merriweather', serif;
+}
+header.masthead .intro-text .intro-heading1{
+  font-size:30px;
+  font-style:italic;
+  line-height:32px;
+  margin-bottom:20px;
+  color: white;
+  font-family:'Merriweather', serif;
+}
+
+/**HISTORY**/
+
+.container3{
+  background: url(../src/images/batik.jpg);
+  background-size: cover;
+  padding: 100px;
+}
+
+.container3 h2.section-heading{
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:5px;
+  font-family:'ZCOOL XiaoWei', serif;
+}
+
+.container3 h3.section-subheading{
+  font-size:16px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom: 5px;
+  text-transform:none;
+}
+
+.container3 h3.section-subheading1{
+  font-size:24px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom:75px;
+  text-transform:none;
+}
+
+
+/* EDUKASI */
+
+.edukasi{
+  text-align: center;
+  text-transform: uppercase;
+  background:url(../src/images/batik.jpg);
+  background-size: cover;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.edukasi h2.section-heading{
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:5px;
+  font-family:'ZCOOL XiaoWei', serif;
+}
+
+.edukasi h3.section-subheading{
+  font-size:16px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom: 5px;
+  text-transform:none;
+}
+
+.edukasi h3.section-subheading1{
+  font-size:24px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom:15px;
+  text-transform:none;
+}
+
+
+.edukasi-container {
+  padding:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.blog-poster{
+  width: min(1200px, 100%);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.poster{
+  width: calc(33% - 10px);
+  overflow: hidden;
+}
+
+.poster img{
+  width: 100%;
+  border-radius: 6px;
+  transition: .3s linear;
+}
+
+.poster-caption{
+  background-color: rgba(217, 219, 213, 0.829);
+  margin: 0 20px;
+  padding: 0px;
+  border-radius: 6px;
+  transform: translateY(-20px);
+  transition: .3s linear;
+  text-align: center;
+  text-transform: initial;
+}
+
+.poster-caption h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.date{
+  font-size: 15px;
+  font-style: italic;
+  color: var(--pastelred);
+}
+
+.poster:hover .poster-img{
+  transform: translateY(20px);
+}
+
+.poster:hover .poster-caption{
+  transform: translateY(-80px);
+}
+
+@media screen and (max-width: 1200px){
+  .karya-container{
+    height: 280vh;
+  }
+  .blog-poster{
+    justify-content: center;
+  }
+  .poster{
+    width: min(300px, 70%);
+  }
+}
+
+/* EDU */
+.edu{
+  background: url(../src/images/batik.jpg);
+  background-size: cover;
+  padding: 100px;
+}
+
+.edu h2.section-heading{
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:5px;
+  font-family:'ZCOOL XiaoWei', serif;
+}
+
+.edu h3.section-subheading{
+  font-size:16px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom: 5px;
+  text-transform:none;
+}
+
+.edu h3.section-subheading1{
+  font-size:24px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom:75px;
+  text-transform:none;
+}
+
+/* KOLEKSI */
+
+.koleksi{
+  text-align: center;
+  text-transform: uppercase;
+  background:url(../src/images/batik.jpg);
+  background-size: cover;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.koleksi h2.section-heading{
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:5px;
+  font-family:'ZCOOL XiaoWei', serif;
+}
+
+.koleksi h3.section-subheading{
+  font-size:16px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom: 5px;
+  text-transform:none;
+}
+
+.koleksi h3.section-subheading1{
+  font-size:24px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom:15px;
+  text-transform:none;
+}
+
+
+.koleksi-container {
+  padding:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.blog-poster{
+  width: min(1200px, 100%);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.poster{
+  width: calc(33% - 10px);
+  overflow: hidden;
+}
+
+.poster img{
+  width: 100%;
+  border-radius: 6px;
+  transition: .3s linear;
+}
+
+.poster-caption{
+  background-color: rgba(217, 219, 213, 0.829);
+  margin: 0 20px;
+  padding: 0px;
+  border-radius: 6px;
+  transform: translateY(-20px);
+  transition: .3s linear;
+  text-align: center;
+  text-transform: initial;
+}
+
+.poster-caption h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.date{
+  font-size: 15px;
+  font-style: italic;
+  color: var(--pastelred);
+}
+
+.poster:hover .poster-img{
+  transform: translateY(20px);
+}
+
+.poster:hover .poster-caption{
+  transform: translateY(-80px);
+}
+
+@media screen and (max-width: 1200px){
+  .karya-container{
+    height: 280vh;
+  }
+  .blog-poster{
+    justify-content: center;
+  }
+  .poster{
+    width: min(300px, 70%);
+  }
+}
+
+
+/**SERVICES**/
+
+.container1{
+  background: url(../src/images/batik.jpg);
+  background-size: cover;
+  padding:100px;
+  height: 700px;
+}
+
+.container1 h2.section-heading{
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:5px;
+  font-family:'ZCOOL XiaoWei', serif;
+}
+
+.container1 h3.section-subheading{
+  font-size:16px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom: 5px;
+  text-transform:none;
+}
+
+.container1 h3.section-subheading1{
+  font-size:24px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom:75px;
+  text-transform:none;
+}
+
+
+/*KONTAK*/
+
+.container2{
+  background: url(../src/images/batik.jpg);
+  background-size: cover;
+  padding:100px;
+  height: 700px;
+}
+
+.container2 h2.section-heading{
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:5px;
+  font-family:'ZCOOL XiaoWei', serif;
+}
+
+.container2 h3.section-subheading{
+  font-size:16px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom:5px;
+  text-transform:none;
+}
+.container2 h3.section-subheading1{
+  font-size:24px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom:15px;
+  text-transform:none;
+}
+
+.container2 .kontak-wraped{
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container2 .kontak-info{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px; 
+}
+
+.container2 .kontak-card{
+  background-color: rgb(202, 177, 32);
+  padding: 0 20px;
+  margin: 0 10px;
+  border-radius: 6px;
+  width: calc(33% - 20px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.container2 .card-info{
+  font-size: 10px;
+  background: white;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.container2 .kontak-card:hover .card-info{
+  background:none;
+  transform: scale(1.6);
+}
+
+.container2 .kontak-card p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+
+.container2 .kontak-card:hover p{
+  max-height: 40px;
+  opacity: 1;
+}
+
+
+@media screen and (max-width:800px) {
+  .container2 .kontak-info{
+    flex-direction: column;
+  }
+  .container2 .kontak-card{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
+
+
+/**TOUR**/
+
+.karya-title{
+  text-align: center;
+  text-transform: uppercase;
+  background:url(../src/images/batik.jpg);
+  background-size: cover;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.karya-title h2.section-heading{
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:5px;
+  font-family:'ZCOOL XiaoWei', serif;
+}
+
+.karya-title h3.section-subheading{
+  font-size:16px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom: 5px;
+  text-transform:none;
+}
+
+.karya-title h3.section-subheading1{
+  font-size:24px;
+  font-weight:400;
+  font-style:italic;
+  margin-bottom:15px;
+  text-transform:none;
+}
+
+
+.karya-container {
+  padding:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.blog-poster{
+  width: min(1200px, 100%);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.poster{
+  width: calc(33% - 10px);
+  overflow: hidden;
+}
+
+.poster img{
+  width: 100%;
+  border-radius: 6px;
+  transition: .3s linear;
+}
+
+.poster-caption{
+  background-color: rgba(217, 219, 213, 0.829);
+  margin: 0 20px;
+  padding: 0px;
+  border-radius: 6px;
+  transform: translateY(-20px);
+  transition: .3s linear;
+  text-align: center;
+  text-transform: initial;
+}
+
+.poster-caption h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.date{
+  font-size: 15px;
+  font-style: italic;
+  color: var(--pastelred);
+}
+
+.poster:hover .poster-img{
+  transform: translateY(20px);
+}
+
+.poster:hover .poster-caption{
+  transform: translateY(-80px);
+}
+
+@media screen and (max-width: 1200px){
+  .karya-container{
+    height: 280vh;
+  }
+  .blog-poster{
+    justify-content: center;
+  }
+  .poster{
+    width: min(300px, 70%);
+  }
+}
+
+/**FOOTER**/
+
+.footer-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background:white;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.icon{
+  margin: 0 1rem;
+  margin-top: 0rem;
+  transition: transform 250.ms;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  background-color:rgb(202, 177, 32);
+  line-height: 37px ;
+}
+
+.icon:hover{
+  transform: translateY(-2px);
+  background-color: #fdfdfd;
+}
+
+.copyright{
+  color:rgb(202, 177, 32);
+  margin-bottom: 0rem;
+}
+
+.menu{
+  margin: 0 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--pastelgreen);
+  text-transform: uppercase;
+}
+
+.menu:hover{
+  color:var(--pastelorange);
+  text-decoration: none;
+}
+
